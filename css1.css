@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;          
+}
+
+td {
+	margin: 0;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-family: Calibri,Arial,sans-serif;
+	font-display: auto;
+	color: white;
+}
+
+h2 {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-display: auto;
+	font-size: 11px;
+	line-height: 1.5;
+}
+
+  button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+color: white;
+	  transition: transform 0.2s ease;
+  }
+
+  button:hover {
+    background-color: transparent;
+	transform: scale(1.06);
+  }
+
+img {
+	padding-top: 30px;
+}
